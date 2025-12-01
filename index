@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sobre Nós</title>
+</head>
+
+<body>
+    <main class="container">
+
+        <section class="section">
+            <h1>Criadores</h1>
+            <p class="lead">Conheça as pessoas responsáveis pelo desenvolvimento deste projeto.</p>
+
+            <div class="team-grid">
+
+                <!-- Arthur -->
+                <div class="member">
+                    <div class="avatar">
+                        <img src="./img/Arthur.jpg" alt="">
+                    </div>
+
+                    <div>
+                        <h4>Arthur Schmeling Pereira</h4>
+                        <p>Programador</p>
+                        <p>08/06/2009</p>
+
+                        <p class="small muted">
+                            Estudante da Escola Estadual Guianuba e cursante de Técnico em Informática da Escola Ulbra São Lucas.
+                        </p>
+
+                        <p>Para ver mais projetos:</p>
+
+                        <a href="https://github.com/arthurschmeling"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                           github.com/arthurschmeling
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Jorge -->
+                <div class="member">
+                    <div class="avatar">
+                        <img src="./img/Eu.jpg" alt="">
+                    </div>
+
+                    <div>
+                        <h4>Jorge Artur Alves Cairuga</h4>
+                        <p>Programador e Designer</p>
+                        <p>15/04/2008</p>
+
+                        <p class="small muted">
+                            Estudante do Colégio Ulbra São Lucas, cursando Técnico em Informática no Colégio Ulbra São Lucas.
+                        </p>
+
+                        <p>Me encontre em:</p>
+
+                        <a href="https://github.com/LoliComunista"
+                           target="_blank"
+                           rel="noopener noreferrer">
+                           github.com/LoliComunista
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <footer>
+            © <span id="year"></span> Criadores do Projeto.
+        </footer>
+
+    </main>
+
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+</body>
+</html>
